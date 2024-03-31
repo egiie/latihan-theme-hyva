@@ -1,0 +1,19 @@
+{
+    "name": "egiie/m2-latihan-theme-hyva",
+    "description": "Theme latihan",
+    "require": {
+        "magento/theme-frontend-luma": "*",
+        "magento/framework": "*"
+    },
+    "type": "magento2-theme",
+    "version": "101.8.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}

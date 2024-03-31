@@ -29,6 +29,7 @@
     },
     "autoload": {
         "files": [
+            "src/theme/registration.php"
         ],
         "psr-4": {
         }
