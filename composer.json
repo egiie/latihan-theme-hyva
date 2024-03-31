@@ -1,22 +1,37 @@
 {
-    "name": "egiie/latihan-theme-hyva",
-    "description": "Theme Latihan",
-    "config": {
-        "sort-packages": true
-    },
-    "require": {
-        "php": "~7.2.0||~7.3.0",
-        "magento/framework": "*",
-        "magento/theme-frontend-blank": "*"
-    },
-    "type": "magento2-theme",
+    "name": "egiie/latihan-theme-hyv",
+    "type": "magento2-module",
+    "authors": [{
+            "name": "icubeus",
+            "email": "sales@icube.us"
+        }
+    ],
+    "description": "Lattihan Hyva",
+    "homepage": "https://github.com/egiie/latihan-theme-hyva.git",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "minimum-stability": "dev",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
     ],
+    "version": "1.0.0",
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.12"
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    },
     "autoload": {
         "files": [
-            "registration.php"
-        ]
+        ],
+        "psr-4": {
+        }
     }
 }
+
